@@ -59,9 +59,6 @@ app.get('/youtube',(req,res)=>{
     res.send('<h2>Chai Aur code</h2>')
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
 
 app.get('/github', (req,res) => {
     res.json(gitHubData)
